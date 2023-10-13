@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSearch", "WebSearch\WebSearch.csproj", "{EBB8BB9A-EFC6-42A9-8A61-6B88BA679E35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSearch", "WebSearch\WebSearch.csproj", "{EBB8BB9A-EFC6-42A9-8A61-6B88BA679E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAPI", "SearchAPI\SearchAPI.csproj", "{F75F224A-790B-41A4-A459-21F41019AF76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAPI", "SearchAPI\SearchAPI.csproj", "{F75F224A-790B-41A4-A459-21F41019AF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EBA36D4A-001E-4021-A2E1-D425591430C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F75F224A-790B-41A4-A459-21F41019AF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75F224A-790B-41A4-A459-21F41019AF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75F224A-790B-41A4-A459-21F41019AF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA36D4A-001E-4021-A2E1-D425591430C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA36D4A-001E-4021-A2E1-D425591430C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA36D4A-001E-4021-A2E1-D425591430C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA36D4A-001E-4021-A2E1-D425591430C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
